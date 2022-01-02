@@ -10,6 +10,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><spring:message code="easaycompany.employeelist.title"/></title>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 <!-- jQuery -->
 <link rel="stylesheet" href="<c:url value='/css/jqueryui.css'/>"/>
 <script src="<c:url value='/js/jquery.js'/>"></script>
@@ -94,7 +96,7 @@
 <br/>
 <table width="50%">
 	<tr>
-		<td align="right"><a href="insertEmployee.do">사원추가</a></td>
+		<td align="right"><a href="insertEmployee.do" class="btn btn-sm btn-primary">사원추가</a></td>
 	</tr>
 </table>
 <br/>
@@ -111,8 +113,7 @@
 	</tr>
 </table>
 
-
-
-
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 </body>
 </html>
